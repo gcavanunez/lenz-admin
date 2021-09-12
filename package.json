@@ -28,6 +28,7 @@
         "ziggy-js": "^1.3.4"
     },
     "dependencies": {
+        "@vueuse/core": "^6.3.2",
         "autoprefixer": "^10.3.4"
     }
 }

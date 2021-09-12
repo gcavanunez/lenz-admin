@@ -33,6 +33,12 @@
                                 >
                                     Dashboard
                                 </jet-nav-link>
+                                <jet-nav-link
+                                    :href="route('form')"
+                                    :active="route().current('form')"
+                                >
+                                    Form
+                                </jet-nav-link>
                             </div>
                         </div>
 

@@ -47,6 +47,14 @@ createInertiaApp({
             .use(plugin)
             .mixin({ methods: { route: window.route } })
             .component("InertiaLink", Link)
+            .directive("autogrow", {
+                created(el) {
+                    el.addEventListener("input", () => {
+                        el.style.height = "auto";
+                        el.style.height = el.scrollHeight + "px";
+                    });
+                },
+            })
             .mount(el);
     },
 });
