@@ -37,7 +37,19 @@
                                     :href="route('form')"
                                     :active="route().current('form')"
                                 >
-                                    Form
+                                    Orders
+                                </jet-nav-link>
+                                <jet-nav-link
+                                    :href="route('form')"
+                                    :active="route().current('form')"
+                                >
+                                    Products
+                                </jet-nav-link>
+                                <jet-nav-link
+                                    :href="route('form')"
+                                    :active="route().current('form')"
+                                >
+                                    Customers
                                 </jet-nav-link>
                             </div>
                         </div>

@@ -1,0 +1,1 @@
+import{d as s,q as e,v as a,o as r,g as t,f as o,t as n}from"./vendor.a36873b3.js";const m=s({props:["message"]}),d={class:"text-sm text-red-600"};m.render=function(s,m,p,g,c,f){return e((r(),t("div",null,[o("p",d,n(s.message),1)],512)),[[a,s.message]])};export{m as _};

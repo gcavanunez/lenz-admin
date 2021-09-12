@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="/source-uploads/logo.svg" style="width: 70%" />
+        <img :src="'/source-uploads/logo.svg'" style="width: 70%" />
         <h2>ÓRDEN DE ENTREGA</h2>
         {{ date }}
         <form>

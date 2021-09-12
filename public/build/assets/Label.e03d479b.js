@@ -1,0 +1,1 @@
+import{d as a,o as s,g as e,t,p as o}from"./vendor.a36873b3.js";const r=a({props:["value"]}),l={class:"block font-medium text-sm text-gray-700"},n={key:0},p={key:1};r.render=function(a,r,u,d,m,c){return s(),e("label",l,[a.value?(s(),e("span",n,t(a.value),1)):(s(),e("span",p,[o(a.$slots,"default")]))])};export{r as _};
