@@ -90,10 +90,10 @@
                         class="print-only"
                         v-if="form.paymentStatus == 'pendiente'"
                     >
-                        <!-- <img
-                            :src="import('@/img/source-uploads/pago.png')"
+                        <img
+                            :src="'@/img/source-uploads/pago.png'"
                             style="width: 400px"
-                        /> -->
+                        />
                     </div>
                     <p>
                         <input
